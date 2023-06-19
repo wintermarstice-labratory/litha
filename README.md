@@ -3,9 +3,37 @@
 </p>
 <h1 align="center">Litha</h1>
 
-> *Important!* This library is still under construction, so it might not be suitable for production use cases just yet. However, your contributions and feedback can help us expedite its readiness for broader usage.
+> *Important!* This library is still under construction, so it might not be suitable for production use cases just yet. However, your contributions and feedback can help us expedite its readiness for broader usage. This README describes what Litha will become when it is ready. As of now, **features are not implemented yet**.
 
 Litha is a powerful library designed to cater to machine learning, neural networks, artificial intelligence, and deep learning operations in the Zig programming language.
+
+## Why Litha?
+
+It's true that there are many mature and well-supported AI/ML/DL libraries in the programming world. Litha, however, comes with its unique benefits that make it worth considering for your machine learning projects:
+
+### 1. Self Contained
+
+Litha aims to be a fully self-contained library for machine learning in Zig. This means it brings everything you need to build, train, and deploy machine learning models without requiring numerous dependencies or additional libraries. With Litha, you get all the tools you need in a single, unified package, making your machine learning projects easier to manage and maintain.
+
+### 2. Compile Time Abilities
+
+One of the unique features of Litha, empowered by the capabilities of Zig, is its extensive use of compile-time abilities. These abilities can be leveraged to optimize machine learning models, tune performance critical parameters, and perform sophisticated type-level computations, all at compile-time.
+
+This can lead to highly efficient code execution and performance improvements, as a lot of decisions are made at compile-time rather than at run-time. This also contributes to the predictability and robustness of the models built with Litha, as potential issues can be caught at compile-time, reducing the likelihood of run-time errors.
+
+### 3. Value Through Convenience
+
+Litha is not just a general machine learning library, it is also a toolbox for training and deploying models. With Zig's build system, Litha can do a slew of neat tricks:
+- Embed an already existing model into executable (or a library), ready to be used at run-time, just like a dependency.
+- Generate code for the model for training and inference. Train a model with a single build step (`zig build train`)
+
+### 4. API Inclusivity and Flexibility
+
+In contrast to many machine learning libraries that heavily depend on CUDA and therefore NVIDIA hardware, Litha embraces an inclusive and flexible approach to APIs. While Litha does support CUDA when it's available, it also provides compatibility with a wide variety of open APIs such as Vulkan and OpenCL, as well as proprietary APIs like DirectX and Metal. This means you can run Litha on almost any hardware, whether it's a GPU or just a CPU.
+
+This inclusive approach eliminates the limitations and vendor lock-ins associated with being tied to a specific hardware or API. With Litha, you have the freedom to use the resources that are available to you, and the flexibility to switch between different APIs as needed.
+
+By choosing Litha, you are opting for a machine learning library that values flexibility, inclusivity, and your freedom to choose. Whether you're developing on a high-end machine with the latest GPU or on a less powerful device with CPU-only, Litha has you covered.
 
 ## Why Zig?
 
