@@ -1,7 +1,7 @@
-<center>
+<p align="center">
     <img src="litha-icon-np.png">
-    <h1>Litha</h1>
-</center>
+</p>
+<h1 align="center">Litha</h1>
 
 > *Important!* This library is still under construction, so it might not be suitable for production use cases just yet. However, your contributions and feedback can help us expedite its readiness for broader usage.
 
