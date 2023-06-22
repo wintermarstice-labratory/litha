@@ -56,6 +56,8 @@ The Zig community is vibrant and growing. This provides a pool of shared knowled
 
 In summary, Zig’s blend of simplicity, efficiency, control, safety, and community makes it a great fit for Litha. We believe that Zig's philosophy aligns with our goals to provide a simple, efficient, and powerful library for machine learning and AI.
 
+The "official" IRC channel is #litha on Libera.Chat.
+
 ## License
 
 The primary mission of Litha, like the Zig project, is to serve users. This doesn't only mean the developers who use Litha to build machine learning and AI models, but more importantly, the end-users who benefit from the applications created using this library.
